@@ -5,16 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CardComponent } from './components/card/card.component';
-import { ServicesComponent } from './services/services.component';
-import { CardServiceComponent } from './services/card-service/card-service.component';
+// import { ServicesComponent } from './services/services.component';
+// import { CardServiceComponent } from './services/card-service/card-service.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CardComponent,
-    ServicesComponent,
-    CardServiceComponent
+    // ServicesComponent,
+    // CardServiceComponent
   ],
   imports: [
     BrowserModule,
